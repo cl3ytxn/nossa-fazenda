@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nossa Fazenda ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- CÉU -->
+    <div class="sky">
+        <div class="sun"></div>
+        <div class="cloud cloud-one">☁️</div>
+        <div class="cloud cloud-two">☁️</div>
+        <div class="cloud cloud-three">☁️</div>
+    </div>
+
+    <!-- TELA INICIAL -->
+    <section class="welcome" id="welcome">
+
+        <div class="welcome-content">
+
+            <span class="welcome-icon">🌻 🐮 🌻</span>
+
+            <p class="eyebrow">UM SONHO PARA CONSTRUIR A DOIS</p>
+
+            <h1>Nossa Fazenda</h1>
+
+            <p class="welcome-text">
+                Uma casinha, alguns animais,
+                muito amor e uma vida inteira
+                de histórias para construir.
+            </p>
+
+            <button class="enter-button" id="enterButton">
+                ENTRAR NA NOSSA FAZENDA ❤️
+            </button>
+
+            <p class="small-text">
+                Preparada para conhecer nosso futuro?
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- FAZENDA -->
+    <main class="farm hidden" id="farm">
+
+        <header class="farm-header">
+            <div>
+                <p class="eyebrow">PROPRIEDADE PARTICULAR</p>
+                <h1>🌻 Nossa Fazenda</h1>
+            </div>
+
+            <div class="farm-status">
+                <span>❤️</span>
+                <span>Construindo nosso futuro</span>
+            </div>
+        </header>
+
+        <!-- PAINEL DE INFORMAÇÕES -->
+        <section class="stats">
+
+            <div class="stat">
+                <span>🐄</span>
+                <p>Nosso gado</p>
+                <strong>Em expansão</strong>
+            </div>
+
+            <div class="stat">
+                <span>🏡</span>
+                <p>Nossa casa</p>
+                <strong>Em construção</strong>
+            </div>
+
+            <div class="stat">
+                <span>❤️</span>
+                <p>Felicidade</p>
+                <strong>Infinita</strong>
+            </div>
+
+        </section>
+
+        <!-- CENÁRIO DA FAZENDA -->
+        <section class="farm-world">
+
+            <div class="world-sky">
+                <span class="world-cloud">☁️</span>
+                <span class="world-cloud second">☁️</span>
+                <span class="world-sun">☀️</span>
+            </div>
+
+            <div class="mountains"></div>
+
+            <div class="farm-house">
+                <div class="house-roof"></div>
+                <div class="house-body">
+                    <div class="window"></div>
+                    <div class="door"></div>
+                    <div class="window second-window"></div>
+                </div>
+                <p>🏡 Nosso cantinho</p>
+            </div>
+
+            <div class="barn">
+                <div class="barn-roof"></div>
+                <div class="barn-body">
+                    <div class="barn-door">🚪</div>
+                </div>
+                <p>🐄 Celeiro</p>
+            </div>
+
+            <div class="fence">
+                <span>🪵</span>
+                <span>🪵</span>
+                <span>🪵</span>
+                <span>🪵</span>
+                <span>🪵</span>
+                <span>🪵</span>
+            </div>
+
+            <div class="animals">
+
+                <button class="animal cow" data-animal="cow">
+                    🐄
+                </button>
+
+                <button class="animal cow-two" data-animal="bull">
+                    🐂
+                </button>
+
+                <button class="animal pig" data-animal="pig">
+                    🐷
+                </button>
+
+                <button class="animal chicken" data-animal="chicken">
+                    🐔
+                </button>
+
+                <button class="animal horse" data-animal="horse">
+                    🐎
+                </button>
+
+                <button class="animal sheep" data-animal="sheep">
+                    🐑
+                </button>
+
+                <button class="animal dog" data-animal="dog">
+                    🐕
+                </button>
+
+            </div>
+
+            <div class="grass"></div>
+
+            <div class="flowers">
+                🌼 🌻 🌷 🌼 🌻 🌷 🌼
+            </div>
+
+        </section>
+
+        <p class="interaction-hint">
+            👆 Clique nos animais para descobrir algumas coisas!
+        </p>
+
+        <!-- MENSAGEM DOS ANIMAIS -->
+        <div class="animal-message" id="animalMessage">
+            <span id="animalEmoji">🐮</span>
+            <p id="animalText">
+                Bem-vinda à nossa fazenda!
+            </p>
+        </div>
+
+        <!-- NOSSA HISTÓRIA -->
+        <section class="dream-section">
+
+            <div class="section-heading">
+                <span>🌻</span>
+                <div>
+                    <p class="eyebrow">NOSSOS PLANOS</p>
+                    <h2>Um sonho chamado futuro</h2>
+                </div>
+            </div>
+
+            <div class="dream-grid">
+
+                <div class="dream-card">
+                    <span>🏡</span>
+                    <h3>Nossa casa</h3>
+                    <p>Um lugar para chamar de nosso.</p>
+                </div>
+
+                <div class="dream-card">
+                    <span>🐄</span>
+                    <h3>Nosso gado</h3>
+                    <p>Começar nossa criação e crescer juntos.</p>
+                </div>
+
+                <div class="dream-card">
+                    <span>🌻</span>
+                    <h3>Nosso campo</h3>
+                    <p>Liberdade, tranquilidade e natureza.</p>
+                </div>
+
+                <div class="dream-card">
+                    <span>❤️</span>
+                    <h3>Nossa vida</h3>
+                    <p>Construir tudo isso lado a lado.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTRATO -->
+        <section class="contract-section">
+
+            <div class="contract">
+
+                <span class="contract-icon">📜</span>
+
+                <p class="eyebrow">DOCUMENTO OFICIAL</p>
+
+                <h2>Contrato de Sociedade Rural</h2>
+
+                <p class="contract-intro">
+                    Pelo presente documento, fica estabelecida
+                    nossa parceria para construir a fazenda
+                    dos nossos sonhos.
+                </p>
+
+                <div class="clauses">
+
+                    <p>🌱 Cláusula 1: Plantar juntos e colher juntos.</p>
+
+                    <p>🐄 Cláusula 2: Ter pelo menos 20 cabeças de gado.</p>
+
+                    <p>🐕 Cláusula 3: Nunca faltar cachorro na fazenda.</p>
+
+                    <p>☕ Cláusula 4: Tomar café juntos todas as manhãs.</p>
+
+                    <p>❤️ Cláusula 5: Nunca abandonar o outro nos dias difíceis.</p>
+
+                    <p>🏡 Cláusula 6: Construir nosso cantinho dos sonhos.</p>
+
+                </div>
+
+                <button class="contract-button" id="contractButton">
+                    ASSINAR CONTRATO ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- CARTA FINAL -->
+        <section class="letter-section">
+
+            <div class="letter">
+
+                <span class="letter-icon">💌</span>
+
+                <p class="eyebrow">UMA CARTA PARA VOCÊ</p>
+
+                <h2>Um dia, tudo isso será nosso...</h2>
+
+                <p>
+                    Às vezes fico imaginando como será nossa vida
+                    daqui a alguns anos.
+                </p>
+
+                <p>
+                    Uma casa no meio do campo, nossos animais
+                    espalhados pelo pasto, cachorros correndo
+                    pelo quintal e aquele café passado logo cedo.
+                </p>
+
+                <p>
+                    Talvez a gente tenha muito trabalho pela frente,
+                    talvez demore para conquistar tudo isso...
+                    mas acho que a melhor parte seria poder
+                    viver cada pedacinho dessa história com você.
+                </p>
+
+                <p>
+                    Não quero apenas dividir uma fazenda com você.
+                    Quero dividir uma vida inteira. ❤️
+                </p>
+
+                <div class="signature">
+                    Com carinho, seu futuro parceiro de fazenda.
+                </div>
+
+                <span class="hearts">❤️ 💕 ❤️</span>
+
+            </div>
+
+        </section>
+
+        <footer>
+            Feito com carinho para nossa futura vida no campo. 🌻
+            <br>
+            <span>Projeto: Nós dois, para sempre. ❤️</span>
+        </footer>
+
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal hidden" id="modal">
+
+        <div class="modal-content">
+
+            <span class="modal-icon" id="modalIcon">❤️</span>
+
+            <h2 id="modalTitle">Contrato assinado!</h2>
+
+            <p id="modalText">
+                Nossa sociedade rural está oficialmente formada!
+            </p>
+
+            <button id="closeModal">
+                CONTINUAR ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
